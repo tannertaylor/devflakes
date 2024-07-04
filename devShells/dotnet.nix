@@ -4,7 +4,7 @@ in pkgs.mkShell {
   name = shellName;
   
   packages = [
-    pkgs.dotnet-sdk
+    pkgs.dotnet-sdk_8
     pkgs.omnisharp-roslyn
   ];
 
