@@ -13,6 +13,7 @@
   in {
     devShells.${system} = {
       rust = import devShells/rust.nix args;
+      dotnet = import devShells/dotnet.nix args;
     };
   };
 }
