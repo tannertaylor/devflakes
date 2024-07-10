@@ -7,6 +7,7 @@ in pkgs.mkShell {
     pkgs.rustc
     pkgs.cargo
     pkgs.rust-analyzer
+    pkgs.rustfmt
   ];
 
   shellHook = ''
